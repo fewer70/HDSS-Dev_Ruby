@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'HDS/node'
+
+client = HDS::Node.new
+client.run
